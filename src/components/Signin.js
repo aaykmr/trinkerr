@@ -1,8 +1,17 @@
 
-function Signin(){
+function Signin(props){
     const handleClick = (e) => {
-        document.getElementsByClassName("overlay")[0].style.display="flex";
-      };
+        if(document.getElementById("phone1").value.length<10||document.getElementById("phone1").value.length>11){
+            document.getElementById("phone1").style.backgroundColor="#b77373";
+        }
+        else{
+            props.setName(document.getElementById("phone1").value);
+            document.getElementsByClassName("overlay")[0].style.display="flex";
+        }
+        setTimeout(function(){
+            document.getElementById("phone1").style.backgroundColor="#ffffff";
+        },1000)
+    };
 
     return(
         <div className="Input-modal">
