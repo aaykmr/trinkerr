@@ -34,7 +34,6 @@ function OTPModal(props, verify){
             for(let i=0;i<4;i++){
                 forms[i].style.backgroundColor="#488449";
             }
-            props.state.verified=true;
             props.verify(true);
         }
         else{
