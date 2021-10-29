@@ -1,9 +1,9 @@
-h1{
-  font-family: 'Gudea', sans-serif;
+h1 {
+  font-family: "Gudea", sans-serif;
   font-size: 40px;
 }
-h2{
-  font-family: 'Gudea', sans-serif;
+h2 {
+  font-family: "Gudea", sans-serif;
   color: #dddddf;
 }
 
@@ -11,7 +11,7 @@ h2{
   text-align: center;
 }
 
-.App-logo{
+.App-logo {
   margin: 20px;
   height: px;
   left: 2%;
@@ -25,32 +25,32 @@ h2{
   }
 }
 
-.App-header{
+.App-header {
   position: relative;
-    float: left;
-    width: 100%;
-    background-color: #ebebeb;
-    box-shadow: 5px 10px 15px #b6b6b6;
-    clear: both;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  float: left;
+  width: 100%;
+  background-color: #ebebeb;
+  box-shadow: 5px 10px 15px #b6b6b6;
+  clear: both;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-.Account{
+.Account {
   position: relative;
   float: left;
   display: flex;
   width: 100%;
   margin-top: 10em;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
 }
 
-.Input-modal{
+.Input-modal {
   width: 35%;
   min-height: 20em;
   background-color: #195379;
@@ -60,39 +60,39 @@ h2{
   transition: all 300ms;
 }
 
-.Input-modal:hover{
+.Input-modal:hover {
   width: 45%;
   background-color: #07314d;
 }
-.Input-modal:hover .inputBox{
+.Input-modal:hover .inputBox {
   height: 70%;
 }
-.Input-modal:hover .head{
+.Input-modal:hover .head {
   margin-top: 0;
 }
-.Input-modal:hover .otpButton{
+.Input-modal:hover .otpButton {
   visibility: visible;
   width: 100px;
   height: 40px;
   font-size: 1em;
 }
-.Input-modal:hover .input{
+.Input-modal:hover .input {
   visibility: visible;
   width: 80%;
   height: 25px;
   font-size: 20px;
 }
-.head{
+.head {
   margin-top: 20%;
   float: left;
   width: 100%;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 3em;
   color: #dddddf;
   transition: all 300ms;
 }
 
-.inputBox{
+.inputBox {
   float: left;
   margin-top: 2em;
   display: flex;
@@ -100,11 +100,11 @@ h2{
   width: 100%;
   height: 50%;
   clear: both;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   align-items: center;
   transition: all 300ms;
 }
-.input{
+.input {
   visibility: hidden;
   width: 0;
   height: 0;
@@ -115,11 +115,11 @@ h2{
   padding: 10px;
   outline: none;
 }
-.otpButton{
+.otpButton {
   visibility: hidden;
   width: 0px;
   height: 0px;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 0em;
   border-radius: 10px;
   border: none;
@@ -127,35 +127,35 @@ h2{
   color: #000000;
   transition: all 300ms;
 }
-.cancel{
+.cancel {
   clear: both;
   float: left;
   margin-top: 10px;
   width: 80px;
   height: 40px;
   font-size: 1em;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   border-radius: 10px;
   border: none;
   background-color: #8d3a3a;
   color: #ffffff;
 }
-.otp{
+.otp {
   display: flex; /* Add a pointer on hover */
 }
-.overlay{
+.overlay {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: fixed; 
-  display: none; 
-  width: 100%; 
-  height: 100%; 
-  background-color: rgba(0,0,0,0.7); 
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
   z-index: 2;
 }
-#enterotp{
-  font-family: 'Gudea', sans-serif;
+#enterotp {
+  font-family: "Gudea", sans-serif;
   color: #dddddf;
   font-size: 1.5em;
   background-color: #2d484d;
@@ -163,11 +163,11 @@ h2{
   border-radius: 10px;
   margin-bottom: 20px;
 }
-.form-control{
+.form-control {
   width: 2em;
   border-radius: 10px;
   height: 4em;
-  font-size:1.5em;
+  font-size: 1.5em;
   text-align: center;
   opacity: 0.7;
   margin: 10px;
@@ -175,17 +175,17 @@ h2{
   outline: none;
   transition: all 300ms;
 }
-.greeting{
+.greeting {
   font-size: 2em;
   width: 40%;
 }
-.logout{
+.logout {
   float: right;
   margin-right: 20px;
   padding: 10px;
   background-color: #ce2424;
   border: none;
-  font-family: 'Gudea', sans-serif;
+  font-family: "Gudea", sans-serif;
   color: #dddddf;
   border-radius: 10px;
 }
